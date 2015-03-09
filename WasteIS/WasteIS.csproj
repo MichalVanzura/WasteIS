@@ -169,6 +169,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ImportController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\OrpsController.cs" />
     <Compile Include="Controllers\ZujsController.cs" />
     <Compile Include="DAL\WasteISContext.cs" />
     <Compile Include="Global.asax.cs">
@@ -258,6 +259,11 @@
     <Content Include="Views\Zujs\Edit.cshtml" />
     <Content Include="Views\Zujs\Index.cshtml" />
     <Content Include="Views\Import\ZujOrp.cshtml" />
+    <Content Include="Views\Orps\Create.cshtml" />
+    <Content Include="Views\Orps\Delete.cshtml" />
+    <Content Include="Views\Orps\Details.cshtml" />
+    <Content Include="Views\Orps\Edit.cshtml" />
+    <Content Include="Views\Orps\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
